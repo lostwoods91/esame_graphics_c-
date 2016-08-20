@@ -3,6 +3,7 @@ Librerie esterne utilizzate:
 - Simple DirectMedia Layer (SDL): gestione degli eventi e della finestra dell'applicazione;
 - OpenGL Mathematics (GLM): libreria grafica basata su GLSL;
 - OpenGL Extension Wrangler Library (GLEW): estensione per le funzioni openGL;
+- stb_image.h: per la lettura delle texture in formato .bmp
 
 Ulteriori fonti:
 
