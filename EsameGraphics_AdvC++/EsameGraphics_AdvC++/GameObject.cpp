@@ -8,7 +8,6 @@ void GameObject::initGameObject()
 	angularVelocity = 0;
 	mass = 1.0f;
 	parent = nullptr;
-	//collisionBehaviour = nullptr;
 }
 
 GameObject::GameObject()

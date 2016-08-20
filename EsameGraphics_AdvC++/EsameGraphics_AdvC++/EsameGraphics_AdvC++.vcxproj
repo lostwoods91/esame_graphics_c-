@@ -106,13 +106,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs\SDL2-2.0.4\include;C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs\glm-master\glm;C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs\glew-1.13.0\include\GL;C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\libs\SDL2-2.0.4\include;..\libs\glm-master\glm;..\libs\glew-1.13.0\include\GL;..\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs\SDL2-2.0.4\lib\x64;C:\Users\Loris\Dropbox\MASTER\C++\EsameGraphics_AdvC++\libs\glew-1.13.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\libs\SDL2-2.0.4\lib\x64;..\libs\glew-1.13.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
